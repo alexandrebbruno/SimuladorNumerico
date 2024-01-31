@@ -1,0 +1,6 @@
+/Users/alexandrebruno/Documents/TCC_PUC/codigo/cfd_server/build/CMakeFiles/edit_cache.dir
+/Users/alexandrebruno/Documents/TCC_PUC/codigo/cfd_server/build/CMakeFiles/rebuild_cache.dir
+/Users/alexandrebruno/Documents/TCC_PUC/codigo/cfd_server/build/libCFDFlow/CMakeFiles/CFDFlow.dir
+/Users/alexandrebruno/Documents/TCC_PUC/codigo/cfd_server/build/libCFDFlow/CMakeFiles/PyCFDFlow.dir
+/Users/alexandrebruno/Documents/TCC_PUC/codigo/cfd_server/build/libCFDFlow/CMakeFiles/edit_cache.dir
+/Users/alexandrebruno/Documents/TCC_PUC/codigo/cfd_server/build/libCFDFlow/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<h1>Simulador de Densidade</h1>
+	<form method="POST">
+		<table>
+		  <tr>
+			<td><label for="temp_min">Temperatura minima [C]:</label></td>
+			<td><input type="number" id="temp_min" name="temp_min" required></td>
+			<td><label for="temp_max">Temperatura maxima [C]:</label></td>
+			<td><input type="number" id="temp_max" name="temp_max" required></td>
+			<td><label for="pressure">Pressão [atm]:</label></td>
+			<td><input type="number" id="pressure" name="pressure" required></td>
+			<td><label for="cl">Cl- [kg/m3]:</label></td>
+			<td><input type="number" id="cl" name="cl" required></td>
+		  </tr>
+		  <tr>
+			<td><label for="na">Na+ [kg/m3]:</label></td>
+			<td><input type="number" id="na" name="na" required></td>
+			<td><label for="so4">SO4- [kg/m3]:</label></td>
+			<td><input type="number" id="so4" name="so4" required></td>
+			<td><label for="mg">Mg++ [kg/m3]:</label></td>
+			<td><input type="number" id="mg" name="mg" required></td>
+			<td><label for="ca">Ca++ [kg/m3]:</label></td>
+			<td><input type="number" id="ca" name="ca" required></td>
+		  </tr>
+		  <tr>
+			<td><label for="k">K+ [kg/m3]:</label></td>
+			<td><input type="number" id="k" name="k" required></td>
+			<td><label for="hco3">HCO3- [kg/m3]:</label></td>
+			<td><input type="number" id="hco3" name="hco3" required></td>
+			<td><label for="br">Br- [kg/m3]:</label></td>
+			<td><input type="number" id="br" name="br" required></td>
+		  </tr>
+		  <tr>
+			<td><label for="co3">CO3-- [kg/m3]:</label></td>
+			<td><input type="number" id="co3" name="co3" required></td>
+			<td><label for="sr">Sr++ [kg/m3]:</label></td>
+			<td><input type="number" id="sr" name="sr" required></td>
+		  </tr>
+		</table>
+		<button type="button" class="btn btn-primary" id="simulate-btn-geo">Simulate Geochemical</button>
+	</form>
+	<div id="density_id"></div>
+
+{% endblock %}

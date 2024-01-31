@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block content %}
+		<h1>Simulador de Campo de Temperatura</h1>
+
+		<p>
+			O simulador em questão realiza os cálculos do campo de tempertura de um placa plana 2D considerando
+			temperturas prescritas nas extremidades.
+		</p>
+		<p>
+			O problema em questão é modelado a partir da 
+		</p>
+
+		<form method="POST">
+			<table>
+			  <tr>
+				<td><label for="Nx">Nx:</label></td>
+				<td><input type="number" id="Nx" name="Nx" required></td>
+				<td><label for="Ny">Ny:</label></td>
+				<td><input type="number" id="Ny" name="Ny" required></td>
+				<td><label for="Lx">Lx:</label></td>
+				<td><input type="number" id="Lx" name="Lx" required></td>
+				<td><label for="Ly">Ly:</label></td>
+				<td><input type="number" id="Ly" name="Ly" required></td>
+			  </tr>
+			  <tr>
+				<td><label for="Tw">Tw:</label></td>
+				<td><input type="number" id="Tw" name="Tw" required></td>
+				<td><label for="Te">Te:</label></td>
+				<td><input type="number" id="Te" name="Te" required></td>
+				<td><label for="Tn">Tn:</label></td>
+				<td><input type="number" id="Tn" name="Tn" required></td>
+				<td><label for="Ts">Ts:</label></td>
+				<td><input type="number" id="Ts" name="Ts" required></td>
+			  </tr>
+			  <tr>
+				<td><label for="ro">Density:</label></td>
+				<td><input type="number" id="ro" name="ro" required></td>
+				<td><label for="k">k:</label></td>
+				<td><input type="number" id="k" name="k" required></td>
+				<td><label for="cp">cp:</label></td>
+				<td><input type="number" id="cp" name="cp" required></td>
+			  </tr>
+			  <tr>
+				<td><label for="total_t">Total time:</label></td>
+				<td><input type="number" id="total_t" name="total_t" required></td>
+			  </tr>
+			</table>
+			<button type="button" class="btn btn-primary" id="simulate-btn-cfd">Simulate CFD</button>
+			</form>
+		<div id="heatmap_id"></div>
+	</div>
+{% endblock %}

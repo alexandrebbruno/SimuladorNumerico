@@ -1,0 +1,6 @@
+name: geochemicalserver
+
+dependencies:
+  - reaktoro
+  - flask
+  - numpy

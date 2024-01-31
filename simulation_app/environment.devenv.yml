@@ -1,0 +1,5 @@
+name: simulationapp
+
+dependencies:
+  - flask
+  - requests
